@@ -9,7 +9,6 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
-
 # Xcode
 #
 build/
@@ -29,7 +28,6 @@ DerivedData
 *.ipa
 *.xcuserstate
 project.xcworkspace
-
 
 # Android/IntelliJ
 #

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "ESNext",
+    "target": "ES5",
+    "lib": [
+      "ES6",
+      "ES7"
+    ],
+    "jsx": "react-native",
+    "allowUnreachableCode": true,
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "jest"
+  ]
+}

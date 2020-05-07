@@ -1,9 +1,11 @@
 {
   "name": "react-native-radial-gradient",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Radial gradient library for react native",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
+    "build": "tsc .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,16 +17,22 @@
     "gradient"
   ],
   "author": {
-    "name": "Surajit Sarkar",
-    "email": "surajitsarkar19@gmail.com"
+    "name": "慕枫",
+    "email": "javakang@qq.com"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/surajitsarkar19/react-native-radial-gradient.git"
+    "url": "https://github.com/fanlide/react-native-radial-gradient.git"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.3",
+    "react-native": ">=0.55"
   },
   "devDependencies": {
-    "babel-preset-react-native": "^4.0.0",
-    "prop-types": "^15.6.0"
+    "@types/react": "^16.9.34",
+    "@types/react-native": "^0.62.7",
+    "react": "^16.13.1",
+    "react-native": "^0.62.2"
   }
 }
