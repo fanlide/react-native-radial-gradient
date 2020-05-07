@@ -46,3 +46,9 @@ myapplication
 build
 images/
 package-lock.json
+
+.editorconfig
+.prettierrc
+tsconfig.json
+tslint.json
+yarn.lock

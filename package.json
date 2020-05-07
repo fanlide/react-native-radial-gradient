@@ -1,5 +1,5 @@
 {
-  "name": "react-native-radial-gradient",
+  "name": "@wenkang365t/react-native-radial-gradient",
   "version": "1.0.7",
   "description": "Radial gradient library for react native",
   "main": "index.js",
